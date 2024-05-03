@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* overflow: hidden; */
+
+
+
+}
+
+img{
+    width: 100%;
+}
+a{
+
+    text-decoration: none;
+}
+
+body,html{
+    background-color: #0025ff;
+    color: white;
+  
+    font-family: General Sans, sans-serif;
+
+}
