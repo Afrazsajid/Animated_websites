@@ -56,7 +56,8 @@
     font-size: 6rem;
   }
   .item img {
-    width: 300px;
+    width: 150px;
+    transform: translate(0,-25px);
   }
   .aboutme-tex-cont {
     width: 80%;

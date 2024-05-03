@@ -181,12 +181,14 @@ function itemhoverhandle() {
 
 
       rotate = dets.clientX;
+      let img=elem.querySelector("img")
       if (window.innerWidth > 480) {
         gsap.to(elem.querySelector("img"), {
           opacity: 1,
           ease: Power3,
-          top: diff,
-          left: dets.clientX,
+          top: (diff)-(elem.getBoundingClientRect().height)/2,
+          left: dets.clientX+(img.getBoundingClientRect().width/3),
+          
           rotate: gsap.utils.clamp(-25, 25, diffrot * 0.5),
           duration: 0.2
         });
